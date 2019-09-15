@@ -20,7 +20,7 @@ This tool will give you an overview of different parameters associated with your
 6) How many items has been created using default "Folder" template.
 
 
-# RELEASE NOTES
+## RELEASE NOTES
 This package installs the following to your Sitecore instance:- 
 
 •	\bin\Sitecore.SharedSource.ItemAuditTool.dll
@@ -28,16 +28,16 @@ This package installs the following to your Sitecore instance:-
 •	\sitecore\admin\SitecoreItemAudit.aspx
 
 
-# How to use
+## How to use
 
 Once package installed- tool can be accessed like- http://yourhostname/sitecore/admin/SitecoreItemAudit.aspx
 
 Fields description:
 
-1) Root path/ID(Page Items)- This field is to specify Path or ID under which your page items(which has presentation) exists.
+**1) Root path/ID(Page Items)-** This field is to specify Path or ID under which your page items(which has presentation) exists.
 	For example- If you site structure is sitecore->content->home (under which you have all your page items) then you would have to set the ID of home item or path of home item to this field.
 	
-2) Page template folder path/ID- This field is to specify the folder path or ID under which you have your page templates created, for example- if your template structure is- /sitecore/templates/Project/SiteName/Page Types, 
+**2) Page template folder path/ID-** This field is to specify the folder path or ID under which you have your page templates created, for example- if your template structure is- /sitecore/templates/Project/SiteName/Page Types, 
 then you would have to set this path or ID of this to this field.
 If you have multiple locations where your page templates are stored, then you can pass multiple IDs or paths to this field.
 Root path/ID(Page Items) field is required to show the correct report of page templates and once done you will have the following details from each template:
@@ -48,14 +48,14 @@ Root path/ID(Page Items) field is required to show the correct report of page te
 * Standard values exists
 * Icon set
 
-3) Page template folder path/ID to exclude- This field is to specify the folder path or ID which you want to exclude from your Page template report.
+**3) Page template folder path/ID to exclude-** This field is to specify the folder path or ID which you want to exclude from your Page template report.
 Note- Only one path/ID is allowed to set here.
 
 
-4) Root path/ID(Global Items)- This field is to specify Path or ID under which your data items(global/data items) exists.
+**4) Root path/ID(Global Items)-** This field is to specify Path or ID under which your data items(global/data items) exists.
 	For example- If you site structure is sitecore->content->Global (under which you have all your global items) then you would have to set the ID of Global item or path of Global item to this field.
 
-5) Data template folder path/ID- This field is to specify the folder path or ID under which you have your data templates created, for example- if your template structure is- /sitecore/templates/Project/SiteName/Content Types, 
+**5) Data template folder path/ID-** This field is to specify the folder path or ID under which you have your data templates created, for example- if your template structure is- /sitecore/templates/Project/SiteName/Content Types, 
 then you would have to set this path or ID of this item to this field.
 If you have multiple locations where your data templates are stored, then you can pass multiple IDs or paths to this field.
 Root path/ID(Global Items) field is required to show the correct report of data templates and once done you will have the following details from each template:
@@ -67,10 +67,10 @@ Root path/ID(Global Items) field is required to show the correct report of data 
 * Insert options set
 * Icon set
 
-6) Data template folder path/ID to exclude- This field is to specify the folder path or ID which you want to exclude from your data template report.
+**6) Data template folder path/ID to exclude-** This field is to specify the folder path or ID which you want to exclude from your data template report.
 Note- Only one path/ID is allowed to set here.
 
-7) Rendering folder path/ID - This field is to specify the folder path or ID under which you have your renderings created, for example- if your rendering structure is- /sitecore/layout/Renderings/Feature, 
+**7) Rendering folder path/ID-** This field is to specify the folder path or ID under which you have your renderings created, for example- if your rendering structure is- /sitecore/layout/Renderings/Feature, 
 then you would have to set this path or ID of this item to this field.
 If you have multiple locations where your renderings are stored, then you can pass multiple IDs or paths to this field and once done you will have the following details for each item:
 * ID
@@ -81,10 +81,10 @@ If you have multiple locations where your renderings are stored, then you can pa
 * Thumbnail set
 
 
-8) Rendering folder path/ID to exclude- This field is to specify the folder path or ID which you want to exclude from your rendering report.
+**8) Rendering folder path/ID to exclude-** This field is to specify the folder path or ID which you want to exclude from your rendering report.
 Note- Only one path/ID is allowed to set here.
 
-9) Placeholder folder path/ID - This field is to specify the folder path or ID under which you have your placeholders created, for example- if your placeholders structure is- /sitecore/layout/Placeholder Settings/Feature, 
+**9) Placeholder folder path/ID-** This field is to specify the folder path or ID under which you have your placeholders created, for example- if your placeholders structure is- /sitecore/layout/Placeholder Settings/Feature, 
 then you would have to set this path or ID of this item to this field.
 If you have multiple locations where your placeholders are stored, then you can pass multiple IDs or paths to this field and once done you will have the following details for each item:
 * ID
@@ -92,12 +92,12 @@ If you have multiple locations where your placeholders are stored, then you can 
 * Placeholder key present
 * Allowed controls set
 
-10) Placeholder folder path/ID to exclude- This field is to specify the folder path or ID which you want to exclude from your placeholders report.
+**10) Placeholder folder path/ID to exclude-** This field is to specify the folder path or ID which you want to exclude from your placeholders report.
 Note- Only one path/ID is allowed to set here.
 
-11) Database- To seelct the darget database (master/web)- if left blank- master database will be used.
+** 11) Database-** To seelct the darget database (master/web)- if left blank- master database will be used.
 
-12) Is Project Helix Based- If checked- then feature template will be enabled and option is provided to select include feature template path/ID or exclude feature template.
+** 12) Is Project Helix Based-** If checked- then feature template will be enabled and option is provided to select include feature template path/ID or exclude feature template.
 If you have multiple locations where your feature templates are stored, then you can pass multiple IDs or paths to this field and once done you will have the following details for each item:
 * ID
 * Name

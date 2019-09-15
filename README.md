@@ -32,7 +32,7 @@ This package installs the following to your Sitecore instance:-
 
 Once package installed- tool can be accessed like- http://yourhostname/sitecore/admin/SitecoreItemAudit.aspx
 
-Fields description:
+**Fields description:**
 
 **1) Root path/ID(Page Items)-** This field is to specify Path or ID under which your page items(which has presentation) exists.
 	For example- If you site structure is sitecore->content->home (under which you have all your page items) then you would have to set the ID of home item or path of home item to this field.
@@ -95,9 +95,9 @@ If you have multiple locations where your placeholders are stored, then you can 
 **10) Placeholder folder path/ID to exclude-** This field is to specify the folder path or ID which you want to exclude from your placeholders report.
 Note- Only one path/ID is allowed to set here.
 
-** 11) Database-** To seelct the darget database (master/web)- if left blank- master database will be used.
+**11) Database-** To seelct the darget database (master/web)- if left blank- master database will be used.
 
-** 12) Is Project Helix Based-** If checked- then feature template will be enabled and option is provided to select include feature template path/ID or exclude feature template.
+**12) Is Project Helix Based-** If checked- then feature template will be enabled and option is provided to select include feature template path/ID or exclude feature template.
 If you have multiple locations where your feature templates are stored, then you can pass multiple IDs or paths to this field and once done you will have the following details for each item:
 * ID
 * Name
@@ -110,4 +110,10 @@ There is also report for items that are based on default folder template- as it 
 
 "Yes" status is highlighted with Green color and "No" status with Red- this is to give visibility on where action is required, so that team can go that item directly and confirm if any chnages are required.
 
+## Screen shots
 
+### Item Audit Tool
+![Sitecore Item Audit tool](images/SitecoreItemAuditToolSection.png)
+
+### Item Audit Tool result listing
+![Sitecore Item Audit tool listing](images/SitecoreItemAuditToolResultListing.png)

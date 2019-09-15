@@ -16,7 +16,7 @@
             <ContentTemplate>
                 <div class="form-section">
                     <div>
-                        <b>***Note: Please review the Readme.txt file to know field details</b>
+                        <b>***Note: Please review the Readme file to know field details</b>
                     </div>
                     <div>
                         <span id="lblDatabase">Database</span>

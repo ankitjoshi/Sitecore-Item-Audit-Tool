@@ -113,7 +113,7 @@ There is also report for items that are based on default folder template- as it 
 ## Screen shots
 
 ### Item Audit Tool
-![Sitecore Item Audit tool](images/SitecoreItemAuditToolSection.png)
+![Sitecore Item Audit tool](images/SitecoreItemAuditToolSection.PNG)
 
-### Item Audit Tool result listing
-![Sitecore Item Audit tool listing](images/SitecoreItemAuditToolResultListing.png)
+### Item Audit Tool Result listing
+![Sitecore Item Audit tool listing](images/SitecoreItemAuditToolResultListing.PNG)
